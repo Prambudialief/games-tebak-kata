@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url(img/ikan.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.wrapper{
+    width: 450px;
+    height: auto;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.teks{
+    border: 2px solid rgba(128, 128, 128, 0.407);
+    border-radius: 8px;
+    margin: 5px;
+}
+.teks h1{
+    font-size: 25px;
+    margin: 20px;
+    font-weight: 600;
+}
+
+.teks h1 span{
+    color: orange;
+}
+
+.teks h2{
+    margin: 20px;
+    font-weight: 400;
+   
+}
+
+.wrapper .content{
+    margin: 25px;
+
+}
+
+.content .inputan{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.inputan input{
+    height: 57px;
+    width: 56px;
+    margin: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    background: none;
+    text-align: center;
+    border-radius: 8px;
+    border: 2px solid grey;
+    color: blue;
+}
+
+.inputan input:active{
+  border: 2px solid red;
+}
+
+.inputan input:first-child{
+    margin-left: 0;
+}
+
+.content .details{
+    margin: 20px 0 25px;
+}
+
+.details p{
+    font-size: 16px;
+    margin: 10px;
+    color: rgb(47, 46, 46);
+}
+
+.content .reset-btn{
+    width: 100%;
+    color: black;
+    height: auto;
+    background: transparent;
+    border: 2px solid gray;
+    cursor: pointer;
+    border-radius: 15px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.content .reset-btn:hover{
+    color: white;
+    background: black;
+    border: 2px solid rgb(215, 149, 149);
+}
